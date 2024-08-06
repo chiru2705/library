@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library ADC</title>
+        
+            
+        
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+            .head{
+                display:flex;
+                flex-direction:row;
+                height:50px;
+                background-color: rgba(0, 0, 0, 0.785);
+                align-items:center;
+                border-bottom-color:rgba(0, 0, 0, 0.795);
+                justify-content:space-between;
+                position:fixed;
+                left:0;
+                top:0;
+                right:0;
+                z-index:100;
+            
+
+
+
+            }
+        
+            
+
+            body{
+                margin:0px;
+            
+                background-image:  url('https://img.freepik.com/premium-photo/bookshelf-library-interior-with-table-chair_9493-21811.jpg');
+            background:cover;
+            background-position:fixed;
+                
+                
+                margin-top:200px;
+                margin-left:10px;
+                
+            }
+            .head-logo{
+                margin-right:40px;
+                font-size:25px;
+                color:whitesmoke;
+                font-family:monospace;
+                text-shadow:rgba( green, blue, alpha)
+            }
+            .head-aditya{
+                text-align:center;
+                font-family:monospace;
+                font-size:80px;
+                font-weight:100px;
+                color:white;
+                margin-top:100px;
+                background-image: url("https://img.freepik.com/free-vector/public-library-interior-stack-book-bookshelf-flat_7081-838.jpg?size=626&ext=jpg");
+                background-size: contain;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color:transparent;
+    
+            }
+
+            .icons{
+                display:flex;
+                flex-direction:row;
+                margin-left:20px;
+                margin-right:30px;
+                justify-content: space-between;
+                
+
+            }
+            .file{
+                height:350px;
+                width:270px;
+                margin-left:20px;
+                margin-top:50px;
+                border-radius:20px;
+                transition:all 0.3s;
+                box-shadow:0px 0px 5px rgba(0,0,0.5);
+            }
+            .file:hover{
+                transform:scale(113%);
+            }
+            .cat{
+                display: flex;
+                
+                position: fixed;
+                top:50px;
+                
+
+z-index:2;}
+            .menu{
+                font-size:40px;
+                color:white;
+                margin-top:20px;
+                margin-left:20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+                
+            
+
+            }
+            .about{
+                color:white;
+                
+                font-family:monospace;
+                font-size: 15PX;
+                margin-top: 60px;
+                
+            background-color: rgb(157, 37, 145);
+                
+    
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius:40px;
+            margin-top:80px;
+
+            }
+            .space{
+                height:140px;
+                position:fixed;
+                z-index:1;
+                top:0;
+                right:0;
+                left:0;
+                background:rgb(17,17,17);
+
+            }
+
+.search{
+    margin-left:400px;
+    align-items:center;
+    margin-top:100px;
+    width:500px;
+    height:35px;
+    border-radius:20px;
+    padding-left:15px;
+    border:none;
+    box-shadow:0px 0px 10px rgba(0,0,0.5);
+}
+.library{
+    margin-top: 50px;   
+ 
+    
+}
+.categories{
+    font-size:40px;
+                color:rgb(0, 0, 0);
+                margin-top:50px;
+                margin-left:80px;
+                font-family:serif;
+
+}
+P{
+    margin:0;
+    
+    background-color: rgb(157, 37, 145);
+}
+        </style>
+    </head>
+    <body>
+        <div class="categories">CATEGORIES</div>
+        <div class="head">
+        <div class="head-logo">
+         <div class="library"></div> 
+        </div>
+        <div class="head-aditya">
+            ADITYA DEGREE COLLEGE
+        </div>
+        <div class="about"><P>A<br>B<br>O<BR>U<BR>T<BR></P>
+        </div>
+        </div>
+
+        <div class="cat">
+            
+            <div class="text">
+                <input type="text" placeholder="search..." class="search">
+            </div>
+            
+        </div>
+        <div class="space">
+           
+        </div>
+
+        <div class="icons">
+        <div >
+            <a href="computer.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+        </div>
+        <div>
+         <a href="computer.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+     </div>
+     <div >
+        <a href="file.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+    </div>
+    <div>
+     <a href="file.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+ </div>
+
+    </div>
+    <div class="icons">
+        <div >
+            <a href="file.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+        </div>
+        <div>
+         <a href="file.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+     </div>
+     <div >
+        <a href="file.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+    </div>
+    <div>
+     <a href="file.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+ </div>
+
+    </div>
+    <div class="icons">
+        <div >
+            <a href="file.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+        </div>
+        <div>
+         <a href="file.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+     </div>
+     <div >
+        <a href="file.html"><img class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+    </div>
+    <div>
+     <a href="file.html"><img  class="file" src="https://t3.ftcdn.net/jpg/03/73/56/56/360_F_373565613_YoOV0NXzJlJyd2wXueJMq1G91riSP2To.jpg"></a>
+ </div>
+
+    </div>
+
+ 
+    </body>
+
+
+</html>
